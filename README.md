@@ -13,7 +13,7 @@ const Parent = () =&gt; {<br>
 };<br>
 </code>
 
-<br><br>
+<br>
 
 <b>5) How is event handling done in React?</b><br>
 Ans:  Event handling done in React using the event attribute onclick . Instead of calling it we pass the function as event handler. For example,<br>
