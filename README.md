@@ -6,7 +6,7 @@ Ans: JSX means Javascript XML which is used in React for writing HTML like code 
   <li>It detects early to find error.</li>
   <li>JSX converts into optimized javascript code which makes the UI become faster.</li>
 </ul>
-<br><br>
+<br>
 <b>2) What is the difference between State and Props?</b><br>
 Ans:  State basically represents the internal data of components which is mutable means data possible to change over time. It managed with useState hook. <br>
 On the other hand, Props are data which is used for sending data from parent to child. And the data is immutable means data can’t be changed.<br>
