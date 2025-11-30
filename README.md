@@ -1,5 +1,5 @@
 <b>4) How can you share state between components in React?</b><br>
-Ans: Using Lift Up State, it passes the data from parent component to child component. For example:<br>
+Ans: Using the Lift Up State, it passes the data from parent component to child component. For example,<br>
 <br>
 <code>
 const Parent = () =&gt; {<br>
@@ -16,7 +16,7 @@ const Parent = () =&gt; {<br>
 <br><br>
 
 <b>5) How is event handling done in React?</b><br>
-Ans: Event handling is done in React using the event attribute <code>onClick</code>. Instead of calling it, we pass the function as an event handler. For example:<br>
+Ans:  Event handling done in React using the event attribute onclick . Instead of calling it we pass the function as event handler. For example,<br>
 <br>
 
 <code>
@@ -34,7 +34,7 @@ function App() {<br>
 </code>
 
 <br>
-When passing data inside the event handler, we use an arrow function to prevent immediate execution. For example:<br>
+When we need to pass data inside the event handler function we use an arrow function inside the event handler to avoid execution immediately; it only runs when the event happens. For example,<br>
 <br>
 
 <code>
